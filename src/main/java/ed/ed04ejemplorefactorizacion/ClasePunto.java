@@ -1,16 +1,25 @@
-package ed.ed04ejemplorefactorizacion;
-
-
 /*
-   DefiniciÃ³n de la clase Punto
-*/
-public class ClasePunto {
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package ed.ed04refactorizacion;
 
-   // Atributos, estado o variables miembro
-   // Se declaran a nivel de clase y se puede trabajar con ellas
-   // desde cualquier mÃ©todo de la clase sin pasarlos como parÃ¡metros
-   private int x;
-   private int y;
+/**
+ *
+ * @author Jabier Zurro Aduriz
+ */
+public class ClasePunto {
+    
+    // Atributos, estado o variables miembro
+    // Se declaran a nivel de clase y se puede trabajar con ellas
+    // desde cualquier mÃ©todo de la clase sin pasarlos como parÃ¡metros
+    private int x;
+    private int y;
+
+    public ClasePunto(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
 
 
     /**
